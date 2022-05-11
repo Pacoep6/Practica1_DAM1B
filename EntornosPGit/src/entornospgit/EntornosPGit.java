@@ -39,6 +39,9 @@ public class EntornosPGit {
                 NumConsola nC = new NumConsola();
                 nC.numC();
                 //y codificar aquí la llamada a método máximo y mínimo----------------
+                DesdeFichero fich1 = new DesdeFichero();
+                fich1.minimo();
+               
                 break;
             default:
                 System.out.println("Saliendo...");
