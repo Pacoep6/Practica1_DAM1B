@@ -9,5 +9,12 @@ package entornospgit;
  * @author admin
  */
 public class numeros {
+    int numero1,numero2;
     
+    numeros(int num1,int num2){
+    numero1=num1;
+    numero2=num2;
+    
+    
+    }
 }

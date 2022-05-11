@@ -38,7 +38,8 @@ public class EntornosPGit {
                 //y codificar aquí la llamada a método máximo y mínimo----------------
                 break;
             default:
-                System.out.println("Saliendo...");
+                System.out.println("Saliendo....");
+                
         }
 
     }
