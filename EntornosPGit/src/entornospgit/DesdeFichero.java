@@ -28,7 +28,7 @@ public class DesdeFichero {
         //selecciono la ruta
         try {
             if (!f.exists()) {
-                throw new FileNotFoundException();
+                throw new FileNotFoundException(); //comentario de prueba
             }
 
             Scanner rd = new Scanner(f);
