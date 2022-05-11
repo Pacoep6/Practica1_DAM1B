@@ -31,11 +31,13 @@ public class EntornosPGit {
                 DesdeFichero fich = new DesdeFichero();
                 fich.maximo();
                 fich.minimo();
-
+               
                 break;
 
             case 2:
                 //HACER CLASE QUE PERMITA METER NUMS DESDE CONSOLA!!!-----------------
+                NumConsola nC = new NumConsola();
+                nC.numC();
                 //y codificar aquí la llamada a método máximo y mínimo----------------
                 break;
             default:
