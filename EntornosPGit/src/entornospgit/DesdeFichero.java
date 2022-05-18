@@ -49,7 +49,7 @@ public class DesdeFichero {
         
 
     }
-
+    //Coimentario version 3
     public void minimo() {
          int min = 0, num = 0;
 
