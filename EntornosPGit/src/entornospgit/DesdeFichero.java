@@ -16,7 +16,7 @@ import java.util.Scanner;
 public class DesdeFichero {
 
     private static File f;
-
+//comentario
     DesdeFichero() {
         f = new File("Fichero.txt");
     }
@@ -46,12 +46,13 @@ public class DesdeFichero {
         } catch (Exception e) {
             System.out.println(e);
         }
-        
 
+        
     }
     //Coimentario version 3
     public void minimo() {
          int min = 0, num = 0;
+
 
         //selecciono la ruta
         try {
@@ -62,12 +63,15 @@ public class DesdeFichero {
             Scanner rd = new Scanner(f);
             while (rd.hasNext()) {
                 num = rd.nextInt();
-                if (min > num) {
+
+                if (num < min) {
+
                     min = num;
                 }
 
             }
-            System.out.println("El mayor es " + min);
+
+            System.out.println("El menor es " + min);
             rd.close();
         } catch (FileNotFoundException e) {
             System.out.println("Error: El fichero no existe");
