@@ -39,7 +39,8 @@ public class EntornosPGit {
                 con.minimo();
                 break;
             default:
-                System.out.println("Saliendo...");
+                System.out.println("Saliendo....");
+                
         }
 
     }
