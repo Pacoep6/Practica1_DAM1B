@@ -34,6 +34,7 @@ public class EntornosPGit {
                 break;
 
             case 2:
+                //Mayor menor desde consola
                 DesdeConsola consola= new DesdeConsola();
                 
                 consola.valor_mayorymenor();
