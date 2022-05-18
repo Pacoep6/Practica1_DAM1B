@@ -39,7 +39,7 @@ public class DesdeFichero {
                 }
 
             }
-            System.out.println("El mayor es " + max);
+            System.out.println("El mayor es " + max); //comentario de prueba 2
             rd.close();
         } catch (FileNotFoundException e) {
             System.out.println("Error: El fichero no existe");
