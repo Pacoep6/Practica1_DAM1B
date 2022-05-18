@@ -36,6 +36,7 @@ public class EntornosPGit {
                 break;
 
             case 2:
+
                 //HACER CLASE QUE PERMITA METER NUMS DESDE CONSOLA!!!-----------------
                 NumConsola nC = new NumConsola();
                 nC.numC();
@@ -43,9 +44,11 @@ public class EntornosPGit {
                 DesdeFichero fich1 = new DesdeFichero();
                 fich1.minimo();
                
+
                 break;
             default:
-                System.out.println("Saliendo...");
+                System.out.println("Saliendo....");
+                
         }
 
     }
