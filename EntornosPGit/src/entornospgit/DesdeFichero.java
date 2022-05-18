@@ -16,7 +16,7 @@ import java.util.Scanner;
 public class DesdeFichero {
 
     private static File f;
-
+//comentario
     DesdeFichero() {
         f = new File("Fichero.txt");
     }
