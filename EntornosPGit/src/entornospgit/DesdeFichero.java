@@ -49,11 +49,12 @@ public class DesdeFichero {
 
         
     }
-
+    //Coimentario version 3
     public void minimo() {
 
-                //variables
-        int min = Integer.MAX_VALUE, num = 0;
+         int min = 0, num = 0;
+
+
 
 
         //selecciono la ruta
@@ -66,7 +67,7 @@ public class DesdeFichero {
             while (rd.hasNext()) {
                 num = rd.nextInt();
 
-                if (min > num) {
+
 
                 if (num < min) {
 
@@ -75,7 +76,7 @@ public class DesdeFichero {
 
             }
 
-            System.out.println("El mayor es " + min);
+
 
             System.out.println("El menor es " + min);
 

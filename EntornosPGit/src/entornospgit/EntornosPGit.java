@@ -21,12 +21,12 @@ public class EntornosPGit {
         //Comentario gitHub
         int selec = 0;
         Scanner sc = new Scanner(System.in);
-        //instrucciones
+        //Panel de salida al usuario:
         System.out.println("Bienvenido al mostrador de máximos y mínimos");
         System.out.println("¿Desde dónde quiere trabajar? \n 1) Fichero \n 2) Consola \n Otro: salir)");
         System.out.println("Si eliges 1, Recuerda introducir Fichero.txt con los números, a ser posible uno en cada línea");
 
-        //menú ojo
+        //Menú:
         switch (sc.nextInt()) {
             case 1:
                 DesdeFichero fich = new DesdeFichero();
@@ -37,6 +37,7 @@ public class EntornosPGit {
 
             case 2:
 
+
                 //HACER CLASE QUE PERMITA METER NUMS DESDE CONSOLA!!!-----------------
                 NumConsola nC = new NumConsola();
                 nC.numC();
@@ -44,6 +45,7 @@ public class EntornosPGit {
                 DesdeFichero fich1 = new DesdeFichero();
                 fich1.minimo();
                
+
 
                 break;
             default:
